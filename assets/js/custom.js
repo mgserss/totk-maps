@@ -30,7 +30,7 @@ var southWest = zeldaMap.unproject([0, imageheight], 8),
 
 zeldaMap.setView(L.latLng(-1432, 395), 5);
 
-var tile_url = 'https://raw.githubusercontent.com/designgears/totk-map-assets/main/tiles/';
+var tile_url = 'https://raw.fastgit.org/designgears/totk-map-assets/main/tiles/';
 
 var sky = L.tileLayer(tile_url + 'sky_complete/{z}/{x}/{y}.png', { maxNativeZoom: 8, bounds: bounds, name: 'Sky' }),
     surface = L.tileLayer(tile_url + 'ground/{z}/{x}/{y}.png', { maxNativeZoom: 8, bounds: bounds, name: 'Surface' }),
